@@ -142,10 +142,10 @@ console.log(henry.play());
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. 'this' without any context will have window binding and refer to the entire window it lives in.
+    2. Implicit binding is when 'this' is attached to whatever is left of the dot. 
+    3. Explicit binding is when 'this' refers to the argument passed into the () of a call, apply, or bind.
+    4. New Binding is when 'this' refers to an object that is being created by the new keyword in a constructor function.
   */
   
   
